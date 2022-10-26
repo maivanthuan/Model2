@@ -1,4 +1,4 @@
-package ss5_access_modifier.bai_tap;
+package ss5_access_modifier.bai_tap.Circle;
 
 public class Circle {
     private double radius=1.0;
@@ -15,7 +15,7 @@ public class Circle {
         return radius;
     }
 
-    public String getColor() {
-        return color;
+    public double getArea() {
+        return radius*radius;
     }
 }
