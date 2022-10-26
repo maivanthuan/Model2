@@ -1,4 +1,4 @@
-package ss6_inheritance.bai_tap;
+package ss6_inheritance.bai_tap.Point;
 
 public class Point2D {
     private float x=0.0f;
@@ -47,12 +47,7 @@ public class Point2D {
     }
 
     public static void main(String[] args) {
-        Point2D point2D= new Point2D();
-        float i=1.1f;
-        float o=2.2f;
-        point2D.setX(i);
-        point2D.setY(o);
-        System.out.println(point2D.getX());
-        System.out.println(point2D.getY());
+        Point2D point2D= new Point2D(5,8);
+        System.out.println(point2D);
     }
 }
