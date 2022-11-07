@@ -1,5 +1,7 @@
 package Case_study.Model;
 
+import java.util.Scanner;
+
 public abstract class Person {
     private String id;
     private String name;
@@ -89,5 +91,22 @@ public abstract class Person {
                 ", phoneNumber='" + phoneNumber + '\'' +
                 ", email='" + email + '\'' +
                 '}';
+    }
+    public void inforPerson(){
+        Scanner scanner= new Scanner(System.in);
+        System.out.println("Nhập mã: ");
+        this.id=scanner.nextLine();
+        System.out.println("Nhập tên: ");
+        this.name=scanner.nextLine();
+        System.out.println("Nhập ngày sinh: ");
+        this.dateOfBirth=scanner.nextLine();
+        System.out.println("Nhập giới tính: ");
+        this.dateOfBirth=scanner.nextLine();
+        System.out.println("Nhập số CMND: ");
+        this.CMND=scanner.nextLine();
+        System.out.println("Nhập số điện thoại: ");
+        this.phoneNumber=scanner.nextLine();
+        System.out.println("Nhập email: ");
+        this.email=scanner.nextLine();
     }
 }

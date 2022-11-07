@@ -1,5 +1,7 @@
 package Case_study.Model;
 
+import java.util.Scanner;
+
 public class Employee extends Person{
     private String level;
     private String location;
@@ -46,5 +48,15 @@ public class Employee extends Person{
                 ", location='" + location + '\'' +
                 ", wage='" + wage + '\'' +
                 '}';
+    }
+    public void inforEmployee() {
+        Scanner scanner=new Scanner(System.in);
+        inforPerson();
+        System.out.println("Nhập trình độ: ");
+        this.level=scanner.nextLine();
+        System.out.println("Nhập vị trí: ");
+        this.location=scanner.nextLine();
+        System.out.println("Nhập mức lương: ");
+        this.wage=scanner.nextLine();
     }
 }

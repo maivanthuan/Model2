@@ -1,5 +1,7 @@
 package Case_study.Model;
 
+import java.util.Scanner;
+
 public class Customer extends Person{
     private String type;
     private String address;
@@ -35,5 +37,13 @@ public class Customer extends Person{
                 "type='" + type + '\'' +
                 ", address='" + address + '\'' +
                 '}';
+    }
+    public void inforCustomer(){
+        Scanner scanner=new Scanner(System.in);
+        inforPerson();
+        System.out.println("Nhập loại khách hàng: ");
+        this.type=scanner.nextLine();
+        System.out.println("Nhập địa chỉ: ");
+        this.address=scanner.nextLine();
     }
 }
