@@ -47,8 +47,16 @@ public class Employee extends Person{
                 "level='" + level + '\'' +
                 ", location='" + location + '\'' +
                 ", wage='" + wage + '\'' +
+                ", id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", dateOfBirth='" + dateOfBirth + '\'' +
+                ", gender='" + gender + '\'' +
+                ", CMND='" + CMND + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", email='" + email + '\'' +
                 '}';
     }
+
     public void inforEmployee() {
         Scanner scanner=new Scanner(System.in);
         inforPerson();

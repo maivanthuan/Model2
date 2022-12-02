@@ -2,9 +2,10 @@ package Case_study.Repository;
 
 import Case_study.Model.Employee;
 
-import java.awt.*;
+import java.util.List;
 
-public interface EmployeeRepository {
+
+public interface IEmployeeRepository {
     void addEmployee(Employee employee);
-    List<Employee>getAll();
+    List<Employee> getAll();
 }

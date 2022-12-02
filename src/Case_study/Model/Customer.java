@@ -34,10 +34,18 @@ public class Customer extends Person{
     @Override
     public String toString() {
         return "Customer{" +
+                ", id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", dateOfBirth='" + dateOfBirth + '\'' +
+                ", gender='" + gender + '\'' +
+                ", CMND='" + CMND + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", email='" + email + '\'' +
                 "type='" + type + '\'' +
                 ", address='" + address + '\'' +
                 '}';
     }
+
     public void inforCustomer(){
         Scanner scanner=new Scanner(System.in);
         inforPerson();

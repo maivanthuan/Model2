@@ -7,5 +7,6 @@ public interface IEmployeeService extends IService{
     @Override
     void display();
 
-    void edit(int id);
+    void edit(String id);
 }
+

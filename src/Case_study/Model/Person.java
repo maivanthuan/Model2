@@ -3,13 +3,13 @@ package Case_study.Model;
 import java.util.Scanner;
 
 public abstract class Person {
-    private String id;
-    private String name;
-    private String dateOfBirth;
-    private String gender;
-    private String CMND;
-    private String phoneNumber;
-    private String email;
+    protected String id;
+    protected String name;
+    protected String dateOfBirth;
+    protected String gender;
+    protected String CMND;
+    protected String phoneNumber;
+    protected String email;
 
     public Person() {
     }
