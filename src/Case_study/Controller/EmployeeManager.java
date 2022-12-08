@@ -1,5 +1,6 @@
 package Case_study.Controller;
 
+import Case_study.ReadAndWrite.ReadAndWriteEmployee;
 import Case_study.Service.IEmployeeService;
 import Case_study.Service.impl.EmployeeService;
 
@@ -8,6 +9,7 @@ import java.util.Vector;
 
 public class EmployeeManager {
     IEmployeeService iEmployeeService=new EmployeeService();
+    ReadAndWriteEmployee readAndWriteEmployee=new ReadAndWriteEmployee();
     private final Scanner scanner = new Scanner(System.in);
     public void emplmenu() {
         do {
@@ -24,6 +26,7 @@ public class EmployeeManager {
                     break;
                 case 2:
                     iEmployeeService.add();
+                    System.out.println("Thêm thành công");
                     break;
                 case 3:
                     System.out.println("Nhập mã sản phẩm muốn sửa:");
