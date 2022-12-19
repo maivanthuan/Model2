@@ -5,13 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1481a0af-5024-480f-b4a4-66ac6f4b4219" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module 2.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3_array_method/thuc_hanh/dao_nguoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Case_study/Data/employee.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/Data/employee.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Case_study/Service/impl/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Case_study/Service/impl/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mylove/Myloveeee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mylove/Myloveeee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice/Data/student.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Data/student.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice/Model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice/Model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice/Model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Model/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice/ReadAndWrite/ReadAndWriteStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/ReadAndWrite/ReadAndWriteStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice/ReadAndWrite/ReadAndWriteTeacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/ReadAndWrite/ReadAndWriteTeacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice/Repository/IStudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Repository/IStudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice/Repository/ITeacherRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Repository/ITeacherRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice/Repository/impl/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Repository/impl/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice/Repository/impl/TeacherRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Repository/impl/TeacherRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice/Service/IStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Service/IStudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice/Service/ITeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Service/ITeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice/Service/impl/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Service/impl/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice/Service/impl/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/Service/impl/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice/controller/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/controller/School.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice/controller/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/controller/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice/controller/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/controller/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13_Binary_search/bai_tap/Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13_Binary_search/bai_tap/Binary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss16_IO_file/thuc_hanh/out.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss16_IO_file/thuc_hanh/out.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss18_String_reget/bai_tap/validatePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss18_String_reget/bai_tap/validatePhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9_Arraylist/bai_tap/Linkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9_Arraylist/bai_tap/Linkedlist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -28,24 +49,121 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2G23GMtmn3fUWE0c0P0yQ4LzfNC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/code gym/Module 2.1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/codegym/Model2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ss15_Exception.bai_tap" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\codegym\Model2\src\ss16_IO_file\bai_tap\copy" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="file đọc" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.BankController">
+    <configuration name="BankController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pass.controller.BankController" />
+      <module name="Module 2.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pass.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FuramaController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Case_study.Controller.FuramaController" />
+      <module name="Module 2.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Case_study.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss12_Java_colletion.controller.ProductController" />
+      <module name="Module 2.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss12_Java_colletion.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="School" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.controller.School" />
+      <module name="Module 2.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="validatePhone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss18_String_reget.bai_tap.validatePhone" />
+      <module name="Module 2.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss18_String_reget.bai_tap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BankController" />
+        <item itemvalue="Application.ProductController" />
+        <item itemvalue="Application.School" />
+        <item itemvalue="Application.FuramaController" />
+        <item itemvalue="Application.validatePhone" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,6 +174,146 @@
       <updated>1665572755193</updated>
       <workItem from="1665572756494" duration="36000" />
       <workItem from="1665572803437" duration="1235000" />
+      <workItem from="1666343008714" duration="13000" />
+      <workItem from="1666343044998" duration="9000" />
+      <workItem from="1666343064528" duration="283000" />
+      <workItem from="1666350124862" duration="92000" />
+      <workItem from="1666350240449" duration="846000" />
+      <workItem from="1666351184716" duration="664000" />
+      <workItem from="1666351909303" duration="1230000" />
+      <workItem from="1666353437035" duration="380000" />
+      <workItem from="1666353830391" duration="186000" />
+      <workItem from="1666354028579" duration="188000" />
+      <workItem from="1666354227946" duration="24000" />
+      <workItem from="1666608847389" duration="646000" />
+      <workItem from="1666609527708" duration="272000" />
+      <workItem from="1666609846081" duration="359000" />
+      <workItem from="1666610352264" duration="188000" />
+      <workItem from="1666610880064" duration="82000" />
+      <workItem from="1666610983799" duration="834000" />
+      <workItem from="1666611909256" duration="272000" />
+      <workItem from="1666612204880" duration="1885000" />
+      <workItem from="1666782840398" duration="45000" />
+      <workItem from="1666782921594" duration="550000" />
+      <workItem from="1666783530909" duration="49000" />
+      <workItem from="1666783608964" duration="579000" />
+      <workItem from="1666784219081" duration="310000" />
+      <workItem from="1666784642609" duration="1085000" />
+      <workItem from="1666785798438" duration="255000" />
+      <workItem from="1666789185748" duration="415000" />
+      <workItem from="1666789719119" duration="698000" />
+      <workItem from="1666790462567" duration="25000" />
+      <workItem from="1666790517318" duration="1496000" />
+      <workItem from="1666792240780" duration="58000" />
+      <workItem from="1666792330105" duration="1295000" />
+      <workItem from="1667114196984" duration="1832000" />
+      <workItem from="1667117166066" duration="2211000" />
+      <workItem from="1667213475328" duration="708000" />
+      <workItem from="1667214462645" duration="294000" />
+      <workItem from="1667214942358" duration="161000" />
+      <workItem from="1667215137142" duration="188000" />
+      <workItem from="1667215545600" duration="134000" />
+      <workItem from="1667215710781" duration="570000" />
+      <workItem from="1667216371103" duration="122000" />
+      <workItem from="1667216562004" duration="101000" />
+      <workItem from="1667216706428" duration="742000" />
+      <workItem from="1667386723831" duration="2902000" />
+      <workItem from="1667558986982" duration="508000" />
+      <workItem from="1667560267458" duration="178000" />
+      <workItem from="1667560561794" duration="5760000" />
+      <workItem from="1667665717639" duration="1265000" />
+      <workItem from="1667818499644" duration="5720000" />
+      <workItem from="1667912862170" duration="3755000" />
+      <workItem from="1667920083256" duration="693000" />
+      <workItem from="1667991650772" duration="696000" />
+      <workItem from="1667992668947" duration="3242000" />
+      <workItem from="1668423423575" duration="2263000" />
+      <workItem from="1668425838546" duration="2100000" />
+      <workItem from="1668428015920" duration="128000" />
+      <workItem from="1668428172421" duration="433000" />
+      <workItem from="1668428650351" duration="920000" />
+      <workItem from="1668596168812" duration="4188000" />
+      <workItem from="1668600685980" duration="295000" />
+      <workItem from="1668601007432" duration="213000" />
+      <workItem from="1668601270672" duration="350000" />
+      <workItem from="1668601659458" duration="118000" />
+      <workItem from="1668601792083" duration="632000" />
+      <workItem from="1668769016790" duration="268000" />
+      <workItem from="1668769427619" duration="73000" />
+      <workItem from="1668769553218" duration="126000" />
+      <workItem from="1668769713289" duration="43000" />
+      <workItem from="1668769775949" duration="155000" />
+      <workItem from="1668769949710" duration="53000" />
+      <workItem from="1668770076212" duration="48000" />
+      <workItem from="1668770146891" duration="63000" />
+      <workItem from="1668770281509" duration="122000" />
+      <workItem from="1668770432778" duration="128000" />
+      <workItem from="1668770602130" duration="473000" />
+      <workItem from="1668771462893" duration="97000" />
+      <workItem from="1668771599883" duration="22000" />
+      <workItem from="1668771637342" duration="37000" />
+      <workItem from="1668771685682" duration="132000" />
+      <workItem from="1668772019548" duration="108000" />
+      <workItem from="1668772838331" duration="25000" />
+      <workItem from="1668772882285" duration="200000" />
+      <workItem from="1668773122863" duration="503000" />
+      <workItem from="1668773653933" duration="105000" />
+      <workItem from="1668773792044" duration="374000" />
+      <workItem from="1668774195176" duration="233000" />
+      <workItem from="1669028722644" duration="1169000" />
+      <workItem from="1669029989596" duration="54000" />
+      <workItem from="1669030060835" duration="726000" />
+      <workItem from="1669030815679" duration="407000" />
+      <workItem from="1669031252158" duration="115000" />
+      <workItem from="1669031403047" duration="150000" />
+      <workItem from="1669031570281" duration="280000" />
+      <workItem from="1669031972247" duration="419000" />
+      <workItem from="1669035710163" duration="4198000" />
+      <workItem from="1669201911409" duration="3410000" />
+      <workItem from="1669205603282" duration="1493000" />
+      <workItem from="1669345644891" duration="281000" />
+      <workItem from="1669364240104" duration="26000" />
+      <workItem from="1669375013567" duration="3530000" />
+      <workItem from="1669597813869" duration="91000" />
+      <workItem from="1669597937324" duration="432000" />
+      <workItem from="1669598539558" duration="1747000" />
+      <workItem from="1669633069370" duration="1095000" />
+      <workItem from="1669634220603" duration="26000" />
+      <workItem from="1669634296227" duration="4417000" />
+      <workItem from="1669640994397" duration="3334000" />
+      <workItem from="1669644511258" duration="23000" />
+      <workItem from="1669644735748" duration="763000" />
+      <workItem from="1669690190796" duration="431000" />
+      <workItem from="1669690757343" duration="656000" />
+      <workItem from="1669805849355" duration="7000" />
+      <workItem from="1669806283050" duration="1068000" />
+      <workItem from="1669807424138" duration="305000" />
+      <workItem from="1669807775760" duration="35000" />
+      <workItem from="1669807847804" duration="128000" />
+      <workItem from="1669807996197" duration="4508000" />
+      <workItem from="1669943329888" duration="2802000" />
+      <workItem from="1669979425456" duration="591000" />
+      <workItem from="1669980161930" duration="58000" />
+      <workItem from="1669980372404" duration="6654000" />
+      <workItem from="1669989600340" duration="458000" />
+      <workItem from="1669990634222" duration="90000" />
+      <workItem from="1670240695212" duration="188000" />
+      <workItem from="1670245785482" duration="3735000" />
+      <workItem from="1670295960183" duration="666000" />
+      <workItem from="1670404830158" duration="2898000" />
+      <workItem from="1670410595282" duration="7659000" />
+      <workItem from="1670458548627" duration="4096000" />
+      <workItem from="1670475098138" duration="1422000" />
+      <workItem from="1670477636296" duration="108000" />
+      <workItem from="1670477871966" duration="505000" />
+      <workItem from="1670549177138" duration="1060000" />
+      <workItem from="1670572220411" duration="626000" />
+      <workItem from="1670582802904" duration="519000" />
+      <workItem from="1670586853848" duration="7976000" />
+      <workItem from="1670595996061" duration="270000" />
+      <workItem from="1670677884658" duration="14000" />
+      <workItem from="1670839726532" duration="17000" />
+      <workItem from="1670845927901" duration="595000" />
     </task>
     <servers />
   </component>

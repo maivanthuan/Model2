@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 public class validatePhone {
     private static Pattern pattern;
-    private static final String PHONE_REGEX="^[(]+[0-9]{2}+[)]+[-]+[(]+[0]+[0-9]{9}+[)]$";
+    private static final String PHONE_REGEX="^[(]+[0-9]{2}+[)]+-+[(]+0+[0-9]{9}+[)]$";
     public validatePhone(){
         pattern=Pattern.compile(PHONE_REGEX);
     }
@@ -21,7 +21,7 @@ public class validatePhone {
         System.out.println("Nhập số điện thoại: ");
         String str=scanner.nextLine();
         boolean is=validatePhone.validate(str);
-        if (is==true){
+        if (is){
             System.out.println(str +" là số điện thoại hợp lệ");
         }else {
             System.out.println(str+ " là số điện thoại không hợp lệ");

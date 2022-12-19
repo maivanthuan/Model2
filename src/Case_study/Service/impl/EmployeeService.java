@@ -52,43 +52,44 @@ public class EmployeeService implements IEmployeeService {
                             System.out.println("Nhập mã: ");
                             String code = scanner.nextLine();
                             employee1.setId(code);
+                            iEmployeeRepository.edit(employeeList);
 
                             break;
                         case 2:
                             System.out.println("Nhập tên: ");
                             String name = scanner.nextLine();
                             employee1.setName(name);
-
+                            iEmployeeRepository.edit(employeeList);
                             break;
                         case 3:
                             System.out.println("Nhập ngày sinh: ");
                             String dateOfBirth = scanner.nextLine();
                             employee1.setDateOfBirth(dateOfBirth);
-
+                            iEmployeeRepository.edit(employeeList);
                             break;
                         case 4:
                             System.out.println("Nhập giới tính: ");
                             String gender = scanner.nextLine();
                             employee1.setGender(gender);
-
+                            iEmployeeRepository.edit(employeeList);
                             break;
                         case 5:
                             System.out.println("Nhập CMND: ");
                             String CMND = scanner.nextLine();
                             employee1.setCMND(CMND);
-
+                            iEmployeeRepository.edit(employeeList);
                             break;
                         case 6:
                             System.out.println("Nhập Số điện thoại: ");
                             String SDT = scanner.nextLine();
                             employee1.setPhoneNumber(SDT);
-
+                            iEmployeeRepository.edit(employeeList);
                             break;
                         case 7:
                             System.out.println("Nhập Email: ");
                             String email = scanner.nextLine();
                             employee1.setEmail(email);
-
+                            iEmployeeRepository.edit(employeeList);
                             break;
                         case 8:
                             return;
@@ -99,6 +100,5 @@ public class EmployeeService implements IEmployeeService {
                 } while (true);
             }
         }
-        iEmployeeRepository.edit(employeeList);
     }
 }

@@ -6,15 +6,15 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Binary {
-    public static int Binary(int[] arr, int left, int right, int value){
+    public static int binary(int[] arr, int left, int right, int value){
         if (left<=right){
             int middle=(left+right)/2;
             if (arr[middle]==value){
                 return middle;
             }else if (arr[middle]>value){
-                return Binary(arr, left, middle-1, value);
+                return binary(arr, left, middle-1, value);
                 }else {
-                return Binary(arr,middle+1,right,value);
+                return binary(arr,middle+1,right,value);
             }
         }
         return -1;
@@ -34,7 +34,7 @@ public class Binary {
         System.out.print ("Mảng sau khi sắp xếp: ");
         System.out.println(Arrays.toString(arr));
         int value=1;
-        System.out.println("index của "+ value+" là "+Binary(arr,0,arr.length-1,value));
+        System.out.println("index của "+ value+" là "+binary(arr,0,arr.length-1,value));
 
     }
 }

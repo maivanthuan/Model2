@@ -1,6 +1,6 @@
 package ss9_Arraylist.bai_tap;
 
-import javax.xml.soap.Node;
+
 
 public class Linkedlist<E> {
     private Node head;
